@@ -10,7 +10,7 @@
  " Bien joué, tous les m&ms sont dans le paquet ! "
 * Créer un bouton " **Rejouer** " qui relance le jeu
 
-**Bonus** Indiquer, au fur et à mesure dans l'affichage, le nombre de m&ms qui restant à mettre dans le paquet !
+**Bonus** Indiquer, au fur et à mesure dans l'affichage, le nombre de m&ms restant à mettre dans le paquet !
           Créer un chrono et donner le temps que l'utilisateur à mis ! 
           
  
