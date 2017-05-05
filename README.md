@@ -1,6 +1,6 @@
 # Jeu Drag and Drop 
 
-* Charger jquery classique et le lier dans le head du document
+* Charger **Jquery classique** et le lier dans le head du document
 * Charger également **Jquery UI** pour réaliser le drag and drop ! Par ici => https://jqueryui.com/
 
 ## Exercice 
