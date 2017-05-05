@@ -1,13 +1,89 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>index</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
+	<html lang="fr">
 
 
-    </body>
-</html>
+	    <head>
+
+	        <meta charset="utf-8">
+	        <title>index</title>
+	        <link rel="stylesheet" href="style.css">
+	        <link rel="stylesheet" href="jquery-ui.css">
+	        <script src="jquery.js"> </script>
+	        <script src="jquery-ui.js"> </script>
+
+	    </head>
+
+
+
+	    <body>
+
+	    <div class="mm" id="bleu"> M </div>
+	    <div class ="mm" id="noir"> M </div>
+	    <div class ="mm"  id="rouge"> M </div>
+	    <div class ="mm"  id="ora1"> M </div>
+	    <div class ="mm"  id="vert"> M </div>
+	    <div class ="mm"  id="jaune"> M </div>
+
+	    <p id="compteur"> </p>
+	    <input id="btn" type="button" value="rejouez">
+
+	    <script>
+
+
+
+	    $(document).ready(function() {
+
+	    				var nb = $(".mm").length;
+						var drop = 0;
+
+	    	$("#bleu, #noir, #rouge, #ora1, #vert, #jaune").draggable({
+
+	    	revert : "invalid" }); 
+	    
+	    		
+	    			
+			
+						$("#paquet").droppable({
+
+				
+
+						drop : function () {
+
+							drop = drop + 1;
+
+							if (drop == nb){
+
+								alert(" Bien jouer");
+
+							}
+							 else {
+
+							 	alert("Tu as mis " + drop +" MM !");
+							 }
+
+							 	
+						}
+
+				});
+					});
+
+
+
+
+
+	    $('#btn').click(function() {
+    		location.reload();
+			});
+
+			
+	    </script>
+
+		
+	    <img id="paquet" src="paquet.png"> 
+
+	    </body>
+
+
+
+	</html>

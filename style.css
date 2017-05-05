@@ -1,3 +1,94 @@
-/*******************************
-			  CSS
-*******************************/
+#bleu {
+
+border: 1px solid black ;
+height: 100px; 
+width: 100px; 
+background-color: blue; 
+text-align: center;
+color: white; 
+font-size: 60px; 
+z-index: 1; 
+border-radius: 50% ;
+
+}
+
+#ora1 {
+
+border: 1px solid black ;
+height: 100px; 
+width: 100px; 
+background-color: orange; 
+text-align: center;
+color: white; 
+font-size: 60px; 
+z-index: 1; 
+border-radius: 50% ;
+
+}
+
+#vert {
+
+border: 1px solid black ;
+height: 100px; 
+width: 100px; 
+background-color: green; 
+text-align: center;
+color: white; 
+font-size: 60px; 
+z-index: 1; 
+border-radius: 50% ;
+
+}
+
+#rouge {
+
+border: 1px solid black ;
+height: 100px; 
+width: 100px; 
+background-color: red; 
+text-align: center;
+color: white; 
+font-size: 60px; 
+z-index: 1; 
+border-radius: 50% ;
+
+}
+
+#noir {
+
+border: 1px solid black ;
+height: 100px; 
+width: 100px; 
+background-color: black; 
+text-align: center;
+color: white; 
+font-size: 60px; 
+z-index: 1; 
+border-radius: 50% ;
+
+}
+
+#jaune{
+
+border: 1px solid black ;
+height: 100px; 
+width: 100px; 
+background-color: yellow; 
+text-align: center;
+color: white; 
+font-size: 60px; 
+z-index: 1; 
+border-radius: 50% ;
+
+}
+
+
+
+
+#paquet {
+
+	z-index: 2;
+	position: absolute;
+	bottom: 10px; 
+	right: 700px; 
+}
